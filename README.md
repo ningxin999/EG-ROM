@@ -29,30 +29,30 @@ This folder contains code and data to reproduce the results in the associated pa
 
 Open main.mlx file
 ## step 1
-  change your folder to `...\SBI\RUN`;
+change your folder to `...\SBI\RUN`;
 
-  add your UQlab package path `...\UQlab\UQLab_Rel2.0.0\UQLab_Rel2.0.0\core`;
+add your UQlab package path `...\UQlab\UQLab_Rel2.0.0\UQLab_Rel2.0.0\core`;
 
-  add your subroutine code path `...\SBI\Main\subroutines`;
+add your subroutine code path `...\SBI\Main\subroutines`;
 
-  Run Matlab;
+Run Matlab;
 
 ## step 2
-  Cases A, B, C and D refers to the usage of DR and the number of training numbers.
-  Here, we can control the code switch:`AnParam.DR` and `AnParam.TrainDataPerc` to reproduce the results.
-  e.g., `AnParam.TrainDataPerc = 1` (FE training run number = 138)
-    `AnParam.TestDataRun = 5; %Test FE runs number`
-    `AnParam.TrainDataPerc = 1;`
+Cases A, B, C and D refers to the usage of DR and the number of training numbers.
+Here, we can control the code switch:`AnParam.DR` and `AnParam.TrainDataPerc` to reproduce the results.
+e.g., `AnParam.TrainDataPerc = 1` (FE training run number = 138)
+  `AnParam.TestDataRun = 5; %Test FE runs number`
+  `AnParam.TrainDataPerc = 1;`
 
 ## step 3
-  Run
+Run
 
 ---------------------
 # Requirements <a name="Requirements"></a>
-  The following functions used in the scripts require toolboxes to be installed:
-  1. UQLab packages for MCMC https://www.uqlab.com/
-  2. Matlab 2024
-  3. Statistics and Machine learning toolbox;Optimization toolbox;Global Optimization toolbox
+The following functions used in the scripts require toolboxes to be installed:
+1. UQLab packages for MCMC https://www.uqlab.com/
+2. Matlab 2024
+3. Statistics and Machine learning toolbox;Optimization toolbox;Global Optimization toolbox
 
 
 ---------------------
