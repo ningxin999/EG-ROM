@@ -1,7 +1,9 @@
 # Companion code and data for the work "Sequential Calibration of Soil Parameters Using a Two-Step Surrogate for High-Dimensional Geotechnical Outputs"
-This repository contains the MATLAB based implementation of the PCA-PCE reduced order modelling for geotechnical correlated high-dimensional outputs and uncertainty quantification. 
-![alt text](image.png)
-Please cite this work, in case you use and/or refer to the PCA-PCE UQ and sequential Bayesian calibration worke.
+
+  This repository contains the MATLAB based implementation of the PCA-PCE reduced order modelling for geotechnical correlated high-dimensional outputs and uncertainty quantification. 
+  ![alt text](image.png)
+  Please cite this work, in case you use and/or refer to the PCA-PCE UQ and sequential Bayesian calibration worke.
+
 --------------------
 # Table of Contents
 <!-- TOC depthFrom:2 depthTo:4 withLinks:1 updateOnSave:1 orderedList:0 -->
