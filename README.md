@@ -39,9 +39,13 @@ Run Matlab;
 
 ## step 2
 Cases A, B, C and D refers to the usage of DR and the number of training numbers.
+
 Here, we can control the code switch:`AnParam.DR` and `AnParam.TrainDataPerc` to reproduce the results.
+
 e.g., `AnParam.TrainDataPerc = 1` (FE training run number = 138)
+
   `AnParam.TestDataRun = 5; %Test FE runs number`
+
   `AnParam.TrainDataPerc = 1;`
 
 ## step 3
