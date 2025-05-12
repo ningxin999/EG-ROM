@@ -30,16 +30,16 @@ This folder contains code and data to reproduce the results in the associated pa
 Open main.mlx file
 ## step 1
 working directory setting, one is subroutine path and the other is uqlab core patb
-  'addpath("E:\OneDrive - Imperial College London\PhD_Work\UQlab\UQLab_Rel2.0.0\UQLab_Rel2.0.0\core");%UQLAB core '
-  'addpath(genpath("E:\OneDrive - Imperial College London\PhD_Work\sci\PCA-PCE\code\Main\subroutines"));%subroutine '
+  `addpath("E:\OneDrive - Imperial College London\PhD_Work\UQlab\UQLab_Rel2.0.0\UQLab_Rel2.0.0\core");%UQLAB core `
+  `addpath(genpath("E:\OneDrive - Imperial College London\PhD_Work\sci\PCA-PCE\code\Main\subroutines"));%subroutine `
   Matlab working path must be under the folder RUN
 
 ## step 2
 Cases A, B, C and D refers to the usage of DR and the number of training numbers.
-Here, we can control the code switch:'''AnParam.DR''' and '''AnParam.TrainDataPerc''' to reproduce the results.
-e.g., 'AnParam.TrainDataPerc = 1''' (FE training run number = 138)
-  'AnParam.TestDataRun = 5; %Test FE runs number'
-  'AnParam.TrainDataPerc = 1;'
+Here, we can control the code switch:`AnParam.DR` and `AnParam.TrainDataPerc` to reproduce the results.
+e.g., `AnParam.TrainDataPerc = 1` (FE training run number = 138)
+  `AnParam.TestDataRun = 5; %Test FE runs number`
+  `AnParam.TrainDataPerc = 1;`
 
 ## step 3
 Run
